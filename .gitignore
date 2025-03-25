@@ -1,0 +1,59 @@
+# ⛔ Игнорируем стандартные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ⛔ Игнорируем файлы виртуального окружения
+venv/
+.env/
+env/
+.idea/
+*.iml
+
+# ⛔ Игнорируем логи и временные файлы
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# ⛔ Игнорируем файлы зависимостей
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+Pipfile.lock
+
+# ⛔ Игнорируем файлы IDE (PyCharm)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ⛔ Игнорируем настройки кода
+.vscode/
+*.code-workspace
+
+# ⛔ Игнорируем файлы сборки (если используется PyInstaller)
+dist/
+build/
+*.spec
+
+# ⛔ Игнорируем кеши Jupyter Notebook
+.ipynb_checkpoints/
+
+# ⛔ Игнорируем SQLite базы данных (если используются)
+*.sqlite3
+*.db
+
+# ⛔ Игнорируем файлы docker (если используется)
+docker-compose.override.yml
+
+# ⛔ Игнорируем файлы тестирования
+.coverage
+htmlcov/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
