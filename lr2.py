@@ -427,7 +427,7 @@ with dpg.window(label="FTP Файлы", tag="window_3", show=False, width=1280, 
     with dpg.child_window(height=200):
         dpg.add_text("", tag="error_log_files", wrap=400)
 
-dpg.create_viewport(title="FTP Client", width=1280, height=720)
+dpg.create_viewport(title="FTP Client", width=1320, height=760)
 dpg.setup_dearpygui()
 dpg.show_viewport()
 dpg.start_dearpygui()
