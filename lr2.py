@@ -403,7 +403,7 @@ with dpg.window(label="FTP Подключение", tag="window_1", width=1280, 
 
 with dpg.window(label="FTP Авторизация", tag="window_2", show=False, width=1280, height=720):
     dpg.add_input_text(tag="context_target_file", show=False)
-    dpg.add_input_text(label="Логин", tag="username_input", default_value="tempftp")
+    dpg.add_input_text(label="Логин", tag="username_input")
     dpg.add_input_text(label="Пароль", tag="password_input", password=True)
     dpg.add_button(label="Авторизоваться", tag="login_button", callback=login_ftp)
     dpg.add_button(label="Назад", callback=disconnect_ftp)
